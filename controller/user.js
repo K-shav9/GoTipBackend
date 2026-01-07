@@ -52,7 +52,7 @@ const { secret } = config;
 const trustap = axios.create({
   baseURL: `${dev_path}/api/v1`,
   headers: {
-    Authorization: `Basic ZTVmYmI2MWEtODU0ZS00ODUwLWFiZmMtMzgzNWVmNGM5ZmU0Og==`, // Add API key in header
+    Authorization: `Basic `, // Add API key in header
     "Content-Type": "application/json",
   },
 });
