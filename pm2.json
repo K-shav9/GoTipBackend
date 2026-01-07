@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "go_tip_me_api",
+            "script": "npm",
+            "args" : "run start"
+        }
+    ]
+}
